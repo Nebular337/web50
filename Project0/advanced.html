@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" type="text/css" href="project0flex.css" />
+
+    </head>
+    <body>
+        <!--- On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.--->
+        <div id="linkspacing">
+        <div class="links">
+            <a href="index.html">Search the web</a>
+        </div> </div>
+        <form action="https://www.google.com/search">
+            <div id="queryspacing"></div>
+            <div class="querybox">
+                <div class="queryname">
+                    <label for="as_q" >all these words:</label>   
+                </div>
+                <div class="queryfield">           
+                    <input type="text" name="as_q" >
+                </div>
+            </div>
+            <div class="querybox">
+            <div class="queryname">
+                <label for="as_epq">this exact word or phrase:</label>
+            </div>
+            <div class="queryfield">
+                <input type="text" name="as_epq"> 
+            </div>
+            </div>
+            <div class="querybox">
+            <div class="queryname">
+                <label for="as_oq">any of these words:</label>
+            </div>
+            <div class="queryfield">
+                <input type="text" name="as_oq"> 
+            </div>
+        </div>
+        <div class="querybox">
+            <div class="queryname">
+                <label for="as_qdr">none of these words</label> 
+            </div>
+            <div class="queryfield">
+                <input type="text" name="as_qdr">
+            </div>
+        </div>
+        <div class="querybox">
+            <div class="queryname">
+                <input type="submit" value="Google Search" id="advancedButton">
+            </div>
+        </div>
+        </form>
+    </body>
+</html>

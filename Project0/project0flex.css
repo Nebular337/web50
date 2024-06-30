@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    margin: 0px;
+    padding: 0px;
+    background-color: lightcyan;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#linkspacing {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.links {
+    border: 5px;
+    justify-content: right;
+    width: 20%;
+    /* <!--- align top right ---> */
+}
+
+#queryspacing {
+    height: 15px;
+    width: 100%;
+}
+
+.querybox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.queryname {
+    width: 200px;
+    padding: 10px;
+    /* padding: 10px; */
+}
+
+.queryfield {
+    width: 400px;
+    margin-right: 600px ;
+    /* align next to name */
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#advancedButton {
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 15%;
+}
